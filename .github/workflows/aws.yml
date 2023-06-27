@@ -7,7 +7,7 @@ on:
 env:
   AWS_REGION: us-east-1                  
   ECR_REPOSITORY: active-pieces         
-  ECS_SERVICE: active-pieces-service                
+  ECS_SERVICE: active-pieces-services                
   ECS_CLUSTER: active-pieces               
   ECS_TASK_DEFINITION: active-piece-task.json                       
   CONTAINER_NAME: active-pieces-container           
